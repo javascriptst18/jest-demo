@@ -6,8 +6,18 @@ function divide(){
   // Write test for divide
 }
 
-function calculate(){
-  // Write test for calculate
+// Write test for calculate
+function calculate(a, operator, b){
+  switch(operator){
+    case "+":
+      return a + b;
+    case "-":
+      return a - b;
+    case "/":
+      return a / b;
+    case "*":
+      return a * b;
+  }
 }
 
 
